@@ -1,0 +1,20 @@
+name: PSMenusPro
+version: 1.0.0
+main: com.drstudio.psmenus.PSMenusPlugin
+api-version: '1.21'
+author: DrStudio
+depend: [ProtectionStones]
+softdepend: [PlaceholderAPI, Vault]
+description: Sistema premium de menús GUI para ProtectionStones por DrStudio.
+
+commands:
+  psmenu:
+    description: Abre el menú principal de protecciones.
+    permission: psmenu.use
+    aliases: [psaddon, psm, psa]
+
+permissions:
+  psmenu.use:
+    default: true
+  psmenu.admin:
+    default: op
